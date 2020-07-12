@@ -1,0 +1,41 @@
+<rss version="2.0">
+	<channel>
+		<title>Sweet Bites</title>
+		<link>https://jokovica.github.io/SweetBites2/index.html</link>
+		<description>
+			We offer you a wide range of cakes and pastries that are best known in the district for their quality.
+		</description>
+
+        <item>
+		<title>Jelovnik</title>
+		<link>https://jokovica.github.io/SweetBites2/menu.html</link>
+		<description>
+			You can always look at our offer and prices.
+		</description>
+		</item>
+		
+		<item>
+		<title>Dostava</title>
+		<link>https://jokovica.github.io/SweetBites2/gallery.html</link>
+		<description>
+			If you are interested to see some of our cakes you can do it here. 
+		</description>
+		</item>
+
+        <item>
+		<title>Dostava</title>
+		<link>https://jokovica.github.io/SweetBites2/contact.html</link>
+		<description>
+			If you have any questions you can ask them here. 
+		</description>
+		</item>
+
+        <item>
+		<title>Dostava</title>
+		<link>https://jokovica.github.io/SweetBites2/author.html</link>
+		<description>
+			Find out little about author of this site.
+		</description>
+		</item>
+	</channel>
+</rss>

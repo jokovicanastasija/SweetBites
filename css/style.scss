@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: una;
+    src: url(../fonts/serif/Unaa-Regular.ttf);
+}
+@font-face{
+    font-family: DancingScript;
+    src: url(../fonts/handwriting/static/DancingScript-Regular.ttf);
+}
+body {
+    font-family: una;
+}
+.handwriting {
+    font-family: DancingScript;
+}
+
+
+$light-brown: rgba(194, 134, 78, 0.808);
+$powder: rgb(253, 192, 151);
+$black: #000;
+$white: #fff;
+$grey: rgb(80, 79, 79);
+
+.borders1{
+    border: 1px solid $light-brown;
+    border-radius: 25px;
+}
+a{
+    color: $black;
+    &:hover {
+        color: $black;
+        text-decoration: none;
+    }
+}
+.bcgr-pow{
+    background: $powder;
+}
+/*FONT SIZE*/
+.fs-23
+{
+    font-size: 23px;
+}
+.fs-26
+{
+    font-size: 26px;
+}
+.fs-30
+{
+    font-size: 30px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-21{
+    font-size:21px ;
+}
+
+/*NAVIGATION*/
+
+.navbar-toggler-icon {
+    color: $powder;
+    text-shadow: 2px 1px $grey;
+}
+.logol{
+    border-bottom: 2px solid $light-brown;
+}
+
+.active-nav-link{
+    color: $powder !important;
+    font-weight: bold;
+    text-shadow: 1px 1px $black;
+}
+
+.nav-link {
+    letter-spacing: 4px;
+    font-size: 21px;
+    &:hover{
+        color: $powder;
+        text-shadow: 1px 1px $black;
+    }
+}
+.navbar{
+    border-bottom: 1px solid $light-brown;
+    background: $white;
+}
+.sub-brand{
+    border-radius: 25px;
+}
+/*ABOUT*/
+.frame {
+    border: 1px solid $light-brown;
+    border-radius: 25px;
+}
+.picture {
+    border-radius: 25px;
+}
+.linkmenu {
+    border-radius: 5px;
+    border: 2px solid $powder;
+}
+.modalbtn{
+    border: 2px solid $powder;
+}
+.hover:hover{
+        background: $white;
+        border: 2px solid $powder;
+}
+
+/*FOOTER*/
+.footer {
+    border: 1px solid $light-brown;
+    min-height: 200px;
+    border-radius: 25px;
+}
+
+.social li a {
+    border: 2px solid $powder;
+    border-radius: 30px;
+    display: block;
+    padding: 10px;
+    width: 40px;
+    &:hover{
+            background: $white;
+            border: 2px solid $powder;
+    }
+}
+.css a{
+    border: 2px solid $powder;
+    border-radius: 30px;
+    display: block;
+    padding: 10px;
+    width: 80px;
+    &:hover{
+            background: $white;
+            border: 2px solid $powder;
+    }
+}
+.portfolio a{
+    border: 2px solid $powder;
+    border-radius: 30px;
+    display: block;
+    padding: 10px;
+    width: 120px;
+    &:hover{
+            background: $white;
+            border: 2px solid $powder;
+    }
+}
+.cl-p {
+    color: $powder;
+}
+.borderpow{
+    border-top: 1px solid $light-brown;
+}
+.backpow{
+    border-radius: 25px;
+}
+.mail:hover {
+    color: $powder;
+    text-shadow: 1px 1px $black;
+}
+
+/*MENU*/
+.menutitle{
+    width: 200px;
+    border-radius: 25px;
+}
+.menu-item{
+    background: radial-gradient(circle, $powder 50%, $white 50%);
+    background-size: 4px 2px !important;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    display: block;
+}
+/*GALLERY*/ 
+.card{
+    border: 1px solid $light-brown;
+    width: 18rem;
+    border-radius: 25px;
+    img {
+        border-radius: 25px;
+    }
+}
+
+/*CONTACT*/ 
+.form {
+    border: 1px solid $light-brown;
+}
+@mixin ContactBack{
+    background: url(../img/contact-back.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.contact{
+    @include ContactBack;
+    border-radius: 25px;
+    h3{
+        text-shadow: 2px 1px $powder;
+    }
+}
+
+
+/*AUTHOR*/ 
+.author-body{
+    padding: 16px;
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .padding{
+        padding: 0 15px 8px;
+    }
+    nav{
+        height: 100px;
+        line-height: 35px;
+        box-shadow: 0px 0px 0px;
+        border-bottom: 1px solid $light-brown;
+        padding: 15px 60px 8px;
+        .br-logo{
+            text-transform: uppercase;
+        }
+        .sidenav-trigger{
+            margin-top: 5px;
+            i{
+                font-size: 40px !important;
+            }
+        }
+        ul{
+            padding-top: 20px;
+            li{
+                a{
+                    letter-spacing: 4px;
+                    &:hover{
+                    color: $powder !important;
+                    text-shadow: 1px 1px $black !important;
+                    background: white !important;
+                        }
+                }
+            } 
+        }
+     }
+}
+.sidenav{
+    li{
+        a{
+            letter-spacing: 4px !important;
+            font-size: 21px;  
+            &:hover{
+            color: $powder !important;
+            text-shadow: 1px 1px $black !important;
+            background: white !important;
+                }
+        }
+    }
+}
+@mixin AuthorBack{
+    background: url(../img/candies.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.author{
+    @include AuthorBack;
+    border-radius: 25px;
+    margin: 3% 2%;
+    padding: 2% 2% 2% 0;
+    img{
+        border-radius: 25px;
+    }
+    p{
+        padding-top: 20%;
+        font-weight: bold;
+    }
+}
+.padding1{
+    padding: 0 15px ;
+    border: 1px solid $light-brown;
+    border-radius: 25px;
+    span{
+        color: $powder;
+        font-size: 20px;
+        margin-right: 7px;
+    }
+    h4{
+        text-transform: uppercase;
+    }
+    .col{
+        line-height: 35px;
+    }
+}
+.link-portfolio {
+    border-radius: 25px;
+    border: 2px solid $powder;
+    padding: 5px;
+    &:hover{
+        background: rgba(0, 0, 0, 0);
+    }
+}
+.social-author{
+    display: flex;
+    justify-content: space-around;
+    a{
+        height: 48px;
+        width: 40px;
+    }
+}
+.social-author-1 {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.copy{
+    padding: 1% 0;
+}
+/*RESPONSIVE*/
+@media screen and (max-width: 992px)
+{
+    #about {
+        font-size: 15px;
+        h3{
+            font-size: 20px;
+        }
+    }
+    .modalbtn {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .modal-title{
+        font-size: 17px;
+    }
+    .modal-body{
+        font-size: 13px;
+    }
+    .author{
+        p{
+            padding: 5%;
+        }
+    }
+}
+@media screen and (max-width: 576px)
+{
+    .footer {
+        p{
+            font-size: 13px;
+        }
+        h4{
+            font-size: 15px;
+        }
+    }
+    .padding1{
+            p{
+                font-size: 13px;
+            }
+            h4{
+                font-size: 15px;
+            }
+    }
+    .author-body{
+        nav{
+            padding: 15px 30px 8px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .menutitle{
+        font-size: 25px;
+    }
+    .contact h3{
+        font-size: 23px;
+    }
+}

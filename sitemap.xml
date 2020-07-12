@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset xmlns="https://jokovica.github.io/SweetBites2/schemas/sitemap/0.9">
+		<url>
+			<loc>https://jokovica.github.io/SweetBites2/index.html</loc>
+			<lastmod>12.07.2020</lastmod>
+			<changefreq>daily</changefreq>
+			<priority>1</priority>
+		</url>
+        <url>
+			<loc>https://jokovica.github.io/SweetBites2/menu.html</loc>
+			<lastmod>12.07.2020</lastmod>
+			<changefreq>daily</changefreq>
+			<priority>2</priority>
+		</url>
+        <url>
+			<loc>https://jokovica.github.io/SweetBites2/gallery.html</loc>
+			<lastmod>12.07.2020</lastmod>
+			<changefreq>daily</changefreq>
+			<priority>3</priority>
+		</url>
+        <url>
+			<loc>https://jokovica.github.io/SweetBites2/contact.html</loc>
+			<lastmod>12.07.2020</lastmod>
+			<changefreq>daily</changefreq>
+			<priority>3</priority>
+		</url>
+        <url>
+			<loc>https://jokovica.github.io/SweetBites2/author.html</loc>
+			<lastmod>12.07.2020</lastmod>
+			<changefreq>daily</changefreq>
+			<priority>3</priority>
+		</url>
+	</urlset>

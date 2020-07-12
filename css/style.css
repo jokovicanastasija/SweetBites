@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: una;
+  src: url(../fonts/serif/Unaa-Regular.ttf);
+}
+
+@font-face {
+  font-family: DancingScript;
+  src: url(../fonts/handwriting/static/DancingScript-Regular.ttf);
+}
+
+body {
+  font-family: una;
+}
+
+.handwriting {
+  font-family: DancingScript;
+}
+
+.borders1 {
+  border: 1px solid rgba(194, 134, 78, 0.808);
+  border-radius: 25px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.bcgr-pow {
+  background: #fdc097;
+}
+
+/*FONT SIZE*/
+.fs-23 {
+  font-size: 23px;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-21 {
+  font-size: 21px;
+}
+
+/*NAVIGATION*/
+.navbar-toggler-icon {
+  color: #fdc097;
+  text-shadow: 2px 1px #504f4f;
+}
+
+.logol {
+  border-bottom: 2px solid rgba(194, 134, 78, 0.808);
+}
+
+.active-nav-link {
+  color: #fdc097 !important;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+}
+
+.nav-link {
+  letter-spacing: 4px;
+  font-size: 21px;
+}
+
+.nav-link:hover {
+  color: #fdc097;
+  text-shadow: 1px 1px #000;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(194, 134, 78, 0.808);
+  background: #fff;
+}
+
+.sub-brand {
+  border-radius: 25px;
+}
+
+/*ABOUT*/
+.frame {
+  border: 1px solid rgba(194, 134, 78, 0.808);
+  border-radius: 25px;
+}
+
+.picture {
+  border-radius: 25px;
+}
+
+.linkmenu {
+  border-radius: 5px;
+  border: 2px solid #fdc097;
+}
+
+.modalbtn {
+  border: 2px solid #fdc097;
+}
+
+.hover:hover {
+  background: #fff;
+  border: 2px solid #fdc097;
+}
+
+/*FOOTER*/
+.footer {
+  border: 1px solid rgba(194, 134, 78, 0.808);
+  min-height: 200px;
+  border-radius: 25px;
+}
+
+.social li a {
+  border: 2px solid #fdc097;
+  border-radius: 30px;
+  display: block;
+  padding: 10px;
+  width: 40px;
+}
+
+.social li a:hover {
+  background: #fff;
+  border: 2px solid #fdc097;
+}
+
+.css a {
+  border: 2px solid #fdc097;
+  border-radius: 30px;
+  display: block;
+  padding: 10px;
+  width: 80px;
+}
+
+.css a:hover {
+  background: #fff;
+  border: 2px solid #fdc097;
+}
+
+.portfolio a {
+  border: 2px solid #fdc097;
+  border-radius: 30px;
+  display: block;
+  padding: 10px;
+  width: 120px;
+}
+
+.portfolio a:hover {
+  background: #fff;
+  border: 2px solid #fdc097;
+}
+
+.cl-p {
+  color: #fdc097;
+}
+
+.borderpow {
+  border-top: 1px solid rgba(194, 134, 78, 0.808);
+}
+
+.backpow {
+  border-radius: 25px;
+}
+
+.mail:hover {
+  color: #fdc097;
+  text-shadow: 1px 1px #000;
+}
+
+/*MENU*/
+.menutitle {
+  width: 200px;
+  border-radius: 25px;
+}
+
+.menu-item {
+  background: radial-gradient(circle, #fdc097 50%, #fff 50%);
+  background-size: 4px 2px !important;
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  display: block;
+}
+
+/*GALLERY*/
+.card {
+  border: 1px solid rgba(194, 134, 78, 0.808);
+  width: 18rem;
+  border-radius: 25px;
+}
+
+.card img {
+  border-radius: 25px;
+}
+
+/*CONTACT*/
+.form {
+  border: 1px solid rgba(194, 134, 78, 0.808);
+}
+
+.contact {
+  background: url(../img/contact-back.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 25px;
+}
+
+.contact h3 {
+  text-shadow: 2px 1px #fdc097;
+}
+
+/*AUTHOR*/
+.author-body {
+  padding: 16px;
+}
+
+.author-body a {
+  text-decoration: none;
+}
+
+.author-body ul {
+  list-style-type: none;
+}
+
+.author-body .padding {
+  padding: 0 15px 8px;
+}
+
+.author-body nav {
+  height: 100px;
+  line-height: 35px;
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
+  border-bottom: 1px solid rgba(194, 134, 78, 0.808);
+  padding: 15px 60px 8px;
+}
+
+.author-body nav .br-logo {
+  text-transform: uppercase;
+}
+
+.author-body nav .sidenav-trigger {
+  margin-top: 5px;
+}
+
+.author-body nav .sidenav-trigger i {
+  font-size: 40px !important;
+}
+
+.author-body nav ul {
+  padding-top: 20px;
+}
+
+.author-body nav ul li a {
+  letter-spacing: 4px;
+}
+
+.author-body nav ul li a:hover {
+  color: #fdc097 !important;
+  text-shadow: 1px 1px #000 !important;
+  background: white !important;
+}
+
+.sidenav li a {
+  letter-spacing: 4px !important;
+  font-size: 21px;
+}
+
+.sidenav li a:hover {
+  color: #fdc097 !important;
+  text-shadow: 1px 1px #000 !important;
+  background: white !important;
+}
+
+.author {
+  background: url(../img/candies.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 25px;
+  margin: 3% 2%;
+  padding: 2% 2% 2% 0;
+}
+
+.author img {
+  border-radius: 25px;
+}
+
+.author p {
+  padding-top: 20%;
+  font-weight: bold;
+}
+
+.padding1 {
+  padding: 0 15px;
+  border: 1px solid rgba(194, 134, 78, 0.808);
+  border-radius: 25px;
+}
+
+.padding1 span {
+  color: #fdc097;
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+.padding1 h4 {
+  text-transform: uppercase;
+}
+
+.padding1 .col {
+  line-height: 35px;
+}
+
+.link-portfolio {
+  border-radius: 25px;
+  border: 2px solid #fdc097;
+  padding: 5px;
+}
+
+.link-portfolio:hover {
+  background: rgba(0, 0, 0, 0);
+}
+
+.social-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social-author a {
+  height: 48px;
+  width: 40px;
+}
+
+.social-author-1 {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+.copy {
+  padding: 1% 0;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 992px) {
+  #about {
+    font-size: 15px;
+  }
+  #about h3 {
+    font-size: 20px;
+  }
+  .modalbtn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal-title {
+    font-size: 17px;
+  }
+  .modal-body {
+    font-size: 13px;
+  }
+  .author p {
+    padding: 5%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer p {
+    font-size: 13px;
+  }
+  .footer h4 {
+    font-size: 15px;
+  }
+  .padding1 p {
+    font-size: 13px;
+  }
+  .padding1 h4 {
+    font-size: 15px;
+  }
+  .author-body nav {
+    padding: 15px 30px 8px;
+  }
+  .author-body p {
+    font-size: 15px;
+  }
+  .menutitle {
+    font-size: 25px;
+  }
+  .contact h3 {
+    font-size: 23px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
